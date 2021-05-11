@@ -1,0 +1,8 @@
+project (psiterm)
+cmake_minimum_required(VERSION 3.0)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+find_package(PkgConfig)
+pkg_check_modules(VTE REQUIRED vte-2.91)
+include_directories(${VTE_INCLUDE_DIRS})
+add_executable(${PROJECT_NAME} termemu.c)
+target_link_libraries(${PROJECT_NAME} ${VTE_LIBRARIES})
