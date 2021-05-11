@@ -8,4 +8,4 @@ Psiayn's Terminal Emulator. I am bored, don't like gnome terminal because it's s
 
 ### Reference.
 The whole thing was 'inspired' by the following article.
-[Write your own terminal.][https://vincent.bernat.ch/en/blog/2017-write-own-terminal].
+[Write your own terminal.](https://vincent.bernat.ch/en/blog/2017-write-own-terminal).
