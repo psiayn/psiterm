@@ -1,8 +1,9 @@
 # psiterm
-Psiayn's Terminal Emulator. I am bored, don't like gnome terminal because it's slow and sadly alacritty and gnome don't play nice. So this is the result of that.
+Psiayn's Terminal Emulator. It is spid and debian doesn't have alacritty T-T.
 
 ## What works
 - Copy Paste with `Ctrl+Shift+C` and `Ctrl+Shift+V`.
+- Zoom in is `Ctrl +` and zoom out is `Ctrl -`
 - No tabs as of now. Tmux ftw.
 
 
